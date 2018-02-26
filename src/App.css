@@ -1,4 +1,21 @@
 
+
+
+/* mallanna-regular - latin */
+@font-face {
+  font-family: 'Mallanna';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/mallanna-v5-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Mallanna'),
+       url('./fonts/mallanna-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/mallanna-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/mallanna-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/mallanna-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/mallanna-v5-latin-regular.svg#Mallanna') format('svg'); /* Legacy iOS */
+}
+
+
 *{
   box-sizing: border-box;
       transition: all 0.4s;
@@ -6,6 +23,10 @@
 
 
 }
+
+
+
+
 html {
     background: #fff;
 }
